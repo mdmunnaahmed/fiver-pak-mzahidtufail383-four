@@ -1,0 +1,220 @@
+.row {
+	gap: 24px 0;
+}
+
+.Dashboard .card {
+	margin-bottom: 0px;
+	font-family: "Roboto";
+	position: relative;
+	border-radius: 8px;
+}
+.Dashboard .card-body .number p {
+	color: white;
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+.Dashboard .card-body {
+	padding: 15px 20px 0px 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.Dashboard .card-body .heading h4,
+a {
+	font-size: 16px;
+	color: black;
+}
+.Dashboard .card-body .heading h6 {
+	color: black;
+	margin: -20px 0px 9px 6px;
+	font-size: 10px;
+}
+.Dashboard .card-body .heading p {
+	color: Black;
+	font-size: 18px;
+}
+.Dashboard .card-footer {
+	text-align: center;
+	padding: 0.25rem 1.25rem;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top: 0px solid #e5ad0b;
+}
+.Dashboard .card-footer a {
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.Detail .card-body {
+	border-top: 3px solid #007bff;
+	border-radius: 5px;
+}
+.Detail .card-body .card-title {
+	font-size: 20px !important;
+}
+.Detail .card-detail {
+	font-size: 15px;
+}
+.Detail .card-detail a {
+	font-size: 14px;
+	color: #0e86e7;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: inherit;
+}
+.Detail .card-detail-comment {
+	font-size: 10px;
+}
+.Dashboard .card .card-icon {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 60px;
+	line-height: 1;
+	opacity: 0.3;
+}
+.fa-power-off {
+	margin-top: 16%;
+}
+
+.App-paragraph {
+	color: red;
+}
+.App-paragraph p {
+	margin-bottom: 8px !important;
+}
+.App-paragraph .text-18 {
+	font-size: 16px;
+	font-weight: 700;
+}
+.App-paragraph .text-10 {
+	font-size: 15px;
+	font-weight: 800;
+	margin: 2px;
+}
+.drag-drop #div1 {
+	background: #ebebeb;
+	color: black;
+	font-size: 15px;
+	font-weight: 900;
+	text-align: center;
+	margin: 25px 0 15px;
+}
+.drag-drop p {
+	margin: 2px;
+	color: black;
+	font-size: 15px;
+	font-weight: 700;
+}
+.Attatchment-submit {
+	text-align: center;
+}
+.Attatchment-submit button {
+	background: #ebebeb;
+}
+.Attatchment-new {
+	text-align: center;
+}
+.Attatchment-new button {
+	background: #ebebeb;
+	text-align: center;
+	font-weight: 700;
+	padding-inline: 45px;
+}
+.App-key p {
+	font-size: 16px;
+	font-weight: 900;
+	padding: 10px 0px 0px 2px;
+}
+.App-key input {
+	font-size: 10px;
+	width: 20%;
+	border: 1px solid black;
+	padding: 2px 0 0 0;
+}
+.File-upload {
+	color: transparent;
+}
+.file-up-btn {
+	font-size: 16px;
+	font-weight: 800;
+	margin-bottom: 0;
+	display: block;
+	padding: 20px;
+}
+.custom-select {
+	margin: -2px 0 0 0;
+	height: calc(1.5em + 0.65rem + 2px);
+}
+.active-status {
+	background: forestgreen;
+	color: white;
+	padding: 2px 5px 2px 5px;
+	border-radius: 50%;
+	font-size: 12px;
+}
+
+#fileList {
+	font-weight: 700;
+	font-size: 18px;
+}
+#fileList ul,
+#fileList li {
+	list-style: none;
+}
+
+
+/* New Css Added Munna Ahmed */
+.card-style-two {
+	border-top: 3px solid #0e86e7;
+	box-shadow: 0 1px 6px #11161e15;
+}
+.pagination-style-two .page-item .page-link {
+	color: #1b1f25;
+}
+.pagination-style-two .page-item.active .page-link {
+	background-color: #0e86e7;
+	border-color: #0e86e7;
+	color: #fff;
+}
+
+.info-list li {
+	gap: 2px 6px;
+}
+.info-list .title {
+	font-weight: 700;
+	min-width: 100px;
+}
+.form-select-tow {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+	width: 0px;
+}
+.custom-scrollbar::-webkit-scrollbar-button {
+	background: #ccc;
+}
+.custom-scrollbar::-webkit-scrollbar-track-piece {
+	background: rgb(255, 255, 255);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	background: rgb(184, 184, 184);
+}
+.custom-scrollbar {
+	overflow-y: scroll;
+	scrollbar-color: #bdbdbd #ffffff;
+	scrollbar-width: thin;
+}
+.custom-btn {
+	border-width: 2px !important;
+	padding: 12px 35px;
+	color: #11161e;
+	border-radius: 0;
+	font-weight: 700;
+}
+.form-select-tow option {
+	padding: 4px 10px;
+}
