@@ -57,53 +57,44 @@
                                     -Only use latest form which is accepted by processing team (Latest form can be downloaded at Dashboard <hyperlink>> Sales Materials)
                                 </p>
 
+                            </div>
 
+                            <div class="App-key d-flex mt-4 pt-2">
+                                <p class="pr-3"> Please Key In Application ID:</p> <input type="text" name="" class="form-control">
+                            </div>
 
-                                <div class="drag-drop">
-                                    <div class="App-key">
-                                        <p> Please Key In Application ID: <input type="text" name=""></p>
-                                    </div>
-                                    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" data-toggle="tooltip" title="Drag the drop here the files you want to upload">
+                            <div class="drag-drop ">
 
+                                <div id="div1" class="position-relative dropFiles" id="dropFiles" ondrop="drop(event)" ondragover="allowDrop(event)" data-toggle="tooltip" title="Drag the drop here the files you want to upload">
 
+                                    <div id="dropFiles" class="dropFiles"></div>
 
-                                        <label class="file-up-btn">
-                                            <input type="file" class="File-upload" style="display:none" name="" id="file" multiple onchange="javascript:updateList()" />
+                                    <label class="file-up-btn">
+                                        <input type="file" class="File-upload" style="display:none" name="" id="file" onchange="javascript:updateList()" multiple>
 
-                                            Upload Amended Attatchment Her <br> (Drag & Drop Here)
-                                        </label>
-
-
-                                    </div>
-
-
-
-                                    <div class="attatchments">
-                                        Selected files:
-                                        <p>
-                                        <div id="fileList" style="color:black;"></div>
-
-                                        </p>
-
-
-
-                                        <div class="Attatchment-new">
-                                            <button class="btn btn-lg"> Resubmit(With New Attatchment) </button>
-                                        </div>
-                                        <div class="Attatchment-new mt-3">
-                                            <button class="btn btn-lg"> Resubmit Only (As Per Previous Attatchment) </button>
-                                        </div>
-
-
-                                    </div>
+                                        Upload Amended Attatchment Her <br> (Drag & Drop Here)
+                                    </label>
 
                                 </div>
 
 
+
+                                <div class="attatchments">
+                                    Selected files:
+
+                                    <div id="fileList" class="mb-4"></div>
+
+                                    <div class="Attatchment-new">
+                                        <button class="btn btn-lg"> Resubmit(With New Attatchment) </button>
+                                    </div>
+                                    <div class="Attatchment-new mt-3">
+                                        <button class="btn btn-lg"> Resubmit Only (As Per Previous Attatchment) </button>
+                                    </div>
+
+
+                                </div>
+
                             </div>
-
-
-
 
                         </div>
 

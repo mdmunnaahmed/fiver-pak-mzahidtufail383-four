@@ -100,6 +100,7 @@ a {
 	font-weight: 900;
 	text-align: center;
 	margin: 25px 0 15px;
+	z-index: 1;
 }
 .drag-drop p {
 	margin: 2px;
@@ -122,16 +123,20 @@ a {
 	font-weight: 700;
 	padding-inline: 45px;
 }
+.App-key {
+	align-items: center;
+}
 .App-key p {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 900;
-	padding: 10px 0px 0px 2px;
+	margin-bottom: 0;
 }
 .App-key input {
-	font-size: 10px;
-	width: 20%;
+	font-size: 14px;
 	border: 1px solid black;
-	padding: 2px 0 0 0;
+	padding: 3px 10px;
+	min-width: 170px;
+	max-width: 400px;
 }
 .File-upload {
 	color: transparent;
@@ -163,7 +168,6 @@ a {
 #fileList li {
 	list-style: none;
 }
-
 
 /* New Css Added Munna Ahmed */
 .card-style-two {
@@ -217,4 +221,18 @@ a {
 }
 .form-select-tow option {
 	padding: 4px 10px;
+}
+
+.dropFiles {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	user-select: none;
+	z-index: 1;
+}
+
+.highlightDropArea {
+	border: 3px dashed #AAA;
 }
